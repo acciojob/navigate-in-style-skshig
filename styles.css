@@ -7,18 +7,11 @@
 /* Style for the list inside the navigation bar */
 .container ul {
     list-style: none; /* Removes bullets from list items */
-    padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
+	display: flex;
 }
 
 /* Style for each list item */
 .container li {
-    display: flex; /* Displays list items horizontally */
+    display: inline; /* Displays list items horizontally */
     margin-right: 1rem; /* Adds spacing to the right of each list item */
-}
-
-/* Optional: Style for links */
-.container a {
-    text-decoration: none; /* Optional: Removes underline from links */
-    color: black; /* Optional: Sets link color */
 }
