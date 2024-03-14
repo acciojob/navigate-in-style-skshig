@@ -13,7 +13,7 @@
 
 /* Style for each list item */
 .container li {
-    display: inline; /* Displays list items horizontally */
+    display: flex; /* Displays list items horizontally */
     margin-right: 1rem; /* Adds spacing to the right of each list item */
 }
 
