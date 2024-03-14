@@ -1,8 +1,24 @@
-/*  your css code here. If applicable */
-.container{
-	background-color: #D3D3D3;
-	padding: 10px;
-	display:flex;
-	margin-right: 16px;
-	list-style-type:none;
+/* Style for the navigation bar */
+.container {
+    background-color: #D3D3D3; /* Light gray background */
+    padding: 10px; /* Padding around the nav-bar */
+}
+
+/* Style for the list inside the navigation bar */
+.container ul {
+    list-style: none; /* Removes bullets from list items */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+/* Style for each list item */
+.container li {
+    display: inline; /* Displays list items horizontally */
+    margin-right: 1rem; /* Adds spacing to the right of each list item */
+}
+
+/* Optional: Style for links */
+.container a {
+    text-decoration: none; /* Optional: Removes underline from links */
+    color: black; /* Optional: Sets link color */
 }
